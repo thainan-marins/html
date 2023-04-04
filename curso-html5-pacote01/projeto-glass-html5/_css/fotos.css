@@ -1,0 +1,92 @@
+@charset "UTF8";
+
+ul#album{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li{ 
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+} 
+
+ul#album li#foto01{
+    background: url(../_imagens/galeria-01.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li#foto02{
+    background: url(../_imagens/galeria-02.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li#foto03{
+    background: url(../_imagens/galeria-03.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li#foto04{
+    background: url(../_imagens/galeria-04.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li#foto05{
+    background: url(../_imagens/galeria-05.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li#foto06{
+    background: url(../_imagens/galeria-06.jpg) no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-size: 200px 200px;
+    background-position: 0px 0px;
+}
+
+ul#album li span{
+    opacity: 0;
+    color:aliceblue;
+    background-color: rgba(0,0,0,0.3);
+    margin: 5px;
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px black;
+    line-height:380px;
+}
+
+ul#album li:hover span{
+    opacity: 1;
+}
+
+ul#album li:hover{
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all 0.4s ease-in-out; 
+}

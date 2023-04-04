@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+}
+
+audio#musica{
+    opacity:0;
+    display:block;
+    position:relative;
+    left:574px;
+    width:300px;
+    top:490px;
+    -webkit-transition: all 0.4s ease;   
+}
+
+audio#musica:hover{
+    opacity:1;
+}
+
+div#videotube{
+    display:block;
+    position:relative;
+    left:132px;
+    bottom:500px;
+}
